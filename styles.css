@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial;
+    font-size: 11pt;
+}
+
+body{
+    padding: 10px;
+    position: absolute;
+}
+
+div.cell {
+    float: left;
+    border: 1px solid grey;
+    padding: 1px 2px 1px 2px;
+    width: 166px;
+    height: 16.91px;
+}
+
+input {
+    border: 1px solid grey;
+    padding: 1px 2px 1px 2px;
+    width: 166px;
+    height: 16.91px;
+    float: left;
+}
+
+div.button {
+    float: left;
+    border: 1px solid grey;
+    padding: 0 2px 2px 2px;
+    width: 16.91px;
+    background: linear-gradient(0, #d9d9d9, #f7f7f7);
+    text-align: center;
+    height: 16.91px;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+    div.button:hover {
+        background: linear-gradient(0, #f7f7f7, #d9d9d9);
+    }
+
+    div.button:active {
+        padding: 0 1px 2px 1px;
+        border: 2px solid grey;
+        height: 14.91px;
+    }
+
